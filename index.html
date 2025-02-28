@@ -1,1 +1,94 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script defer src="confetti.js"></script> 
+    <script defer src="countdown.js"></script> <!-- Countdown Timer -->
+</head>
+<body>
+
+    <div class="birthday-container">
+        <h1 class="title">🎉 Happy Birthday, Very Busy! 🎂</h1>
+
+        <!-- Image Section (Three Images of Her) -->
+        <div class="image-gallery">
+            <img src="images/image1.heic" alt="Her Picture 1">
+            <img src="images/image2.heic" alt="Her Picture 2">
+            <img src="images/image3.heic" alt="Her Picture 3">
+        </div>
+
+        <!-- Short Description -->
+        <div class="description">
+            <h2>About Very Busy</h2>
+            <p>
+                Busy, you're the most important person to me. Our bond should last forever. 💖  
+                From irritating me 😤, playing with me 🎮, and making me pissed off 🤬—I give you full rights to annoy me for a lifetime! 😆  
+                You are the person I want in my life forever! Since I can’t fit everything into one paragraph, here’s a feature breakdown of you! 📜
+            </p>
+        </div>
+
+        <!-- Features of Her -->
+        <div class="features">
+            <h2>🌟 Features of Very Busy... ta da! 🌟</h2>
+            <ul>
+                <li>💡 Super Intelligent (Every time I say this, she gets happy. But is she...?? 🤔)
+                    <ul>
+                        <li>Being honest—when I first met her, she was super intelligent. But after spending time with me… she became dumb or maybe just acts dumb. 😆</li>
+                        <li>She’s great at learning new things—especially new ways to irritate me. 🤦‍♂️  
+                            She comes up with a variety of creative (and evil 😈) ways to mess with me. Big brain moves! 🧠</li>
+                    </ul>
+                </li>
+                <li>❤️ Always Caring and Supportive
+                    <ul>
+                        <li>Uh-oh… I’m about to get emotional 😭. I’ve hurt her many times (unintentionally), but she always cares for me and supports me. Tears dropping 😢</li>
+                        <li>Sometimes she gives the best advice (but let’s be honest, I usually don’t listen to her 🤭). Sorry, Busy! 🙈</li>
+                    </ul>
+                </li>
+                <li>🎯 Focused & Hardworking
+                    <ul>
+                        <li>She works VERY HARD... especially when it comes to finding new ways to piss me off. 🤬  
+                            Also, she’s super focused on every single word I say—just to twist my words and ask weird questions. HOW?! 😵‍💫</li>
+                        <li>Jokes aside, sometimes she actually inspires me with her dedication and hard work. Rare moments, but true! 😜</li>
+                    </ul>
+                </li>
+                <li>🌍 Independent and Strong
+                    <ul>
+                        <li>She’s independent and strong because she somehow manages me (which is NOT easy). Props to her! 🎖️👏</li>
+                        <li>Never afraid to irritate me or even beat me up when needed. Ouch. Send help. 🚑😂</li>
+                    </ul>
+                </li>
+                <li>😆 Fun and Full of Energy
+                    <ul>
+                        <li>She enjoys annoying me, and that gives her immense satisfaction. After that, she can sleep peacefully. I suffer. 😭</li>
+                        <li>Always ready to fight with me, play with me, and mess around.  
+                            And guess what? I want this to continue FOREVER. Be my friend for life, Busy! 💖🎊</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Buttons for Celebration & Countdown Timer -->
+        <button class="btn" onclick="startCelebration()">Click for Surprise! 🎈</button>
+        <button class="btn" onclick="showCountdown()">First Meeting Countdown ⏳</button>
+
+        <!-- Countdown Pop-up -->
+        <div id="countdown-popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closeCountdown()">&times;</span>
+                <h2>📅 Time Since Our First Meeting</h2>
+                <p id="countdown-timer"></p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ❤️ by Saikrishna</p>
+        </footer>
+    </div>
+
+</body>
+</html>
